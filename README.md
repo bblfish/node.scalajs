@@ -45,5 +45,5 @@ Current presuppositions:
 6. Open the file `index.fastopt.html` in your browser 
   ( may require a web server - I opened it in IntelliJ which provides that )
 
+7. You should see the console spit out information about the parts of the url
 
-Currently this shows a problem in Chrome with `Uncaught TypeError: Cannot read property 'parse' of undefined` in TestApp line 11. Hope to solve this soon.

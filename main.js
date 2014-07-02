@@ -1,6 +1,5 @@
 var Url = require("url")
+console.log(Url.parse("http://heidi.bblfish.net/card#me"))
 
-console.log(Url.parse("http://bblfish.net/people/henry/card#me"))
-
-module.export = Url
-
+//module.export = Url <- not sure when this is needed
+global.window.Url = Url

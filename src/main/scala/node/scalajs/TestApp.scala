@@ -9,6 +9,6 @@ object TestApp extends JSApp {
   def main(): Unit = {
     println("Hello world again!")
     val url = Url.parse("http://bblfish.net/people/greg/card#me")
-    println(s"parsed $url ")
+    println(s"parsed $url with value ${url.href} and host=${url.host} ")
   }
 }
