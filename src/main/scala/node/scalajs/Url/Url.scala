@@ -21,7 +21,7 @@ trait Url extends js.Object  {
 
   val hostname: String = ???
 
-  val port: Int = ???
+  val port: String = ???
 
   val pathname: String = ???
 
