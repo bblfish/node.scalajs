@@ -1,6 +1,6 @@
 scalaJSSettings
 
-name := "Port of the Node Uri class to ScalaJS"
+name := "node.scalajs"
 
 scalaVersion := "2.11.1"
 
